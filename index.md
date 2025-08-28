@@ -2,13 +2,17 @@
 title: Narratives in the Wild
 layout: home
 description: Collaborative narrative annotation infrastructure for social media platforms, addressing misinformation through community-driven research on Bluesky.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
 show_call_box: true
+news_content: |
+  **October 2025** - We will be presenting our research at the **NLP for Democracy workshop** at COLM 2025 in Montreal, Canada.
+
+  **May 2025** - Our team will present at the **8th International Workshop on Computational Models of Narrative** at the University of Geneva, Switzerland.
+
 ---
 
-# Addressing Misinformation Through Narrative Understanding
+# Narratives in the Wild
+
+## *A narrative annotation and tracking tool for researchers studying Bluesky*
 
 Narratives in the Wild is building a collaborative annotation infrastructure to identify and label the "big, sticky stories" that spread across social media platforms. Instead of fact-checking individual posts, we focus on understanding the underlying narrative patterns that contribute to misinformation ecosystems.
 

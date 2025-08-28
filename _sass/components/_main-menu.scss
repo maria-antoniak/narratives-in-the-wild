@@ -15,9 +15,10 @@
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        color: $black;
         &:hover {
           text-decoration: underline;
+          color: darken($black, 10%);
         }
       }
       &.active {

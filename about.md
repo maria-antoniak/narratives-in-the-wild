@@ -40,3 +40,7 @@ Our working prototype uses the open-source Ozone library to provide a usable int
 ## Impact
 
 This project creates a new approach to combating harmful online content by focusing on "big, sticky stories" rather than individual fact-checking. We enable researchers to connect individual units of information into coherent narratives, going beyond narrow factuality to characterize online content holistically.
+
+## Funding
+
+The research team is supported by the Pioneer Centre for AI, DNRF grant number P1. This work is further supported by the European Union (ERC, ExplainYourself, 101077481, a DFF Sapere Aude research leader grant under grant agreement No 0171-00034B, and a Danish Data Science Academy postdoctoral fellowship (grant: 2023-1425). Views and opinions expressed are those of the researchers only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.

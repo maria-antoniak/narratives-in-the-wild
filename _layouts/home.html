@@ -5,19 +5,58 @@ bodyClass: "page-home"
 
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
+    <div class="row justify-content-start align-items-center">
+      {% if page.intro_image %}
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
       </div>
-      {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
+      {% else %}
+      <div class="col-12 col-lg-8">
+        {{ content }}
+      </div>
+      {% if page.show_call_box %}
+      <div class="col-12 col-lg-4">
+        <div class="pt-4 pt-lg-0">
+          {% include call.html show_button=true %}
+        </div>
+      </div>
+      {% endif %}
       {% endif %}
     </div>
+    
+    <!-- News section - full width below -->
+    {% if page.news_content %}
+    <div class="row pt-6">
+      <div class="col-12">
+        <div class="news-section">
+          <h2 class="news-title">News</h2>
+          <div class="news-items">
+            <div class="news-item">
+              <div class="news-date">October 2025</div>
+              <div class="news-description">
+                We will be presenting our research at the <strong>NLP for Democracy workshop</strong> at COLM 2025 in Montreal, Canada.
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="news-date">May 28-30, 2025</div>
+              <div class="news-description">
+                Our team will present at the <strong>8th International Workshop on Computational Models of Narrative</strong> at the University of Geneva, Switzerland.
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="news-date"></div>
+              <div class="news-description">
+                Stay tuned for updates on our collaborative narrative annotation infrastructure and research findings from the Bluesky platform.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
   </div>
 </div>
 

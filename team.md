@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+We are a research team based out of the Pioneer Centre for AI in Copenhagen with expertise in online communities, narrative analysis, natural language processing, computer vision, explainability, factuality, and bias detection.

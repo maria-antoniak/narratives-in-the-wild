@@ -10,10 +10,12 @@ news_content: |
 
 ---
 
-# Narratives in the Wild
+<!-- # Narratives in the Wild -->
 
-## *A narrative annotation and tracking tool for researchers studying Bluesky*
+# *A narrative annotation and observation tool for researchers studying social media*
 
-Narratives in the Wild is building a collaborative annotation infrastructure to identify and label the "big, sticky stories" that spread across social media platforms. Instead of fact-checking individual posts, we focus on understanding the underlying narrative patterns that contribute to misinformation ecosystems.
+We're a research team building a collaborative annotation infrastructure to identify and label the "big, sticky stories" that spread across social media platforms. Instead of fact-checking individual posts, we focus on understanding the underlying narrative patterns that contribute to misinformation ecosystems.
 
-Our open research platform brings together researchers, community members, and users to collaboratively annotate narrative patterns on Bluesky, creating transparent datasets for interdisciplinary research.
+Our open research platform brings together researchers, community members, and users to collaboratively annotate narrative patterns on Bluesky, a new social media platform, creating transparent datasets for interdisciplinary research. 
+
+Based at the at the Pioneer Centre for AI in Copenhagen, Denmark, our experimental project focuses on strengthening democracy through new interactive tools for social media.

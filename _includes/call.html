@@ -3,7 +3,7 @@
     {% if site.data.contact.research_inquiry %}
         <div class="call-inquiry"><strong>{{ site.data.contact.research_inquiry }}</strong></div>
     {% endif %}
-    {% if site.data.contact.email %}
+    {% if include.show_email and site.data.contact.email %}
     <div class="call-email">Contact: 
       <a href="mailto:{{ site.data.contact.email }}">
         {{ site.data.contact.email }}

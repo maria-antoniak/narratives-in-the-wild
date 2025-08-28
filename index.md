@@ -6,7 +6,7 @@ show_call_box: true
 news_content: |
   **October 2025** - We will be presenting our research at the **NLP for Democracy workshop** at COLM 2025 in Montreal, Canada.
 
-  **May 2025** - Our team will present at the **8th International Workshop on Computational Models of Narrative** at the University of Geneva, Switzerland.
+  **May 2025** - Our team will present at the **8th International Workshop on Computational Models of Narrative** at the University of Geneva, Switzerland. 
 
 ---
 

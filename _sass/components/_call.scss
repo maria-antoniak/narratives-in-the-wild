@@ -18,8 +18,11 @@
     flex-wrap: wrap;
   }
   .call-box-top {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     padding: 20px;
+    width: 100%;
+    min-width: 0;
+    overflow: visible;
     @include media-breakpoint-up(md) {
     }
   }
@@ -50,6 +53,16 @@
     overflow-wrap: break-word;
     white-space: normal;
     line-height: 1.4;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    
+    strong {
+      display: block;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
   }
   strong {
     font-weight: bold;

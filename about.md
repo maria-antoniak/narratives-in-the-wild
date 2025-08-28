@@ -1,87 +1,42 @@
 ---
-title: About
+title: About Narratives in the Wild
 layout: page
-description: About
+description: Research project focused on collaborative narrative annotation for understanding misinformation in social media ecosystems.
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+The modern social media ecosystem is in crisis. Recent events have created a stranglehold over most social media, with the purchase of Twitter by Elon Musk, TikTok's internal censorship and threatened U.S. ban, moderation changes at Meta, and the closing of research APIs supporting an online information ecosystem where misinformation and disinformation can thrive.
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+![Research Project](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
 
-# Objectives
+# Our Approach
 
-Financial accounting and financial reporting are often used as synonyms.
+Battling to correct individual pieces of misinformation is perhaps always a losing game. As Alice Marwick, director of Data & Society, notes: "The problem is less about 'units of facts'... The problem is with these big, sticky stories."
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+Narratives in the Wild addresses this challenge by focusing on the underlying narrative patterns that spread across communities, rather than fact-checking individual posts.
 
-## Relevance
+## Key Research Goals
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+1. **Build collaborative narrative labeling pipeline** on Bluesky using moderation services
+2. **Enable multi-stakeholder annotation** by researchers, community members, and users
+3. **Create open datasets** for narrative research across disciplines
+4. **Address misinformation through narrative understanding** rather than individual fact-checking
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+## Why Bluesky?
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+Bluesky is a new social media platform built using the AT Protocol, a decentralized protocol for large-scale social web applications. Bluesky's open and "hackable" structure makes it ideal for computational social experiments.
 
-## Faithful Representation
+Bluesky labels can be designed and applied by any user who chooses to run a moderation service. Other users may then subscribe to any of these services, which can hide, warn, or simply display a label for relevant content—all opt-in.
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+## Our Methodology
 
-## Enhancing Qualitative Characteristics
+Our working prototype uses the open-source Ozone library to provide a usable interface:
 
-### Verifiability
+1. **Research teams propose** topic-specific narrative annotation tasks through a formal process
+2. **Community members flag posts** and provide rationales and labels
+3. **Trusted annotators** iteratively cluster and assign labels in moderation queues
+4. **Open datasets** are immediately available via downloadable datasets and personalized dashboards
 
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
+## Impact
 
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+This project creates a new approach to combating harmful online content by focusing on "big, sticky stories" rather than individual fact-checking. We enable researchers to connect individual units of information into coherent narratives, going beyond narrow factuality to characterize online content holistically.

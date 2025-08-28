@@ -1,84 +1,51 @@
 ---
-title: "Accounting"
-date: 2018-11-18T12:33:46+10:00
+title: "Research Methodology"
+date: 2025-01-01T12:33:46+10:00
 weight: 1
 ---
 
-Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
+Our research methodology combines computational folkloristics, sensemaking theory, and collaborative annotation to understand how narratives spread through social media ecosystems.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Research Methodology](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
-# Objectives
+# Theoretical Foundations
 
-Financial accounting and financial reporting are often used as synonyms.
+Our approach draws from three key research areas to address the challenge of misinformation in online spaces:
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+## Computational Folkloristics
 
-## Relevance
+The field of computational folkloristics uses network analysis and natural language processing methods to measure and analyze how conspiracy theory narratives spread online, within and across social media platforms. This approach helps us detect "underlying narrative frameworks" and the connections between them.
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+## Sensemaking Research
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+Sensemaking research examines how people construct shared knowledge. When this process goes awry, "facts" are not always the issue but rather rumors and conspiracy theories that spread higher level "misinterpretations and mischaracterizations."
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+> Having access to high quality frames and being able to apply frames appropriately could be the difference between experts and those more susceptible to misinformation.
 
-## Faithful Representation
+## Collaborative Annotation
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+We leverage the wisdom of crowds through collaborative tagging systems, similar to successful projects like Community Notes on Twitter/X, but focused specifically on narrative elements rather than factual accuracy.
 
 ---
 
-## Statement of cash flows
+## Our Process
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+Our annotation pipeline follows a structured four-step process:
 
-| Cash Inflow | Outflow   | Opening Balance |
+| Step | Process | Participants |
 | ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+| **Propose** | Research teams propose topic-specific annotation tasks | Researchers, Community Leaders |
+| **Flag** | Community members identify relevant posts | Annotators, General Users |
+| **Label** | Trusted members assign narrative categories | Expert Annotators |
+| **Share** | Open datasets become available | All Researchers, Builders |
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+### Research Design Principles
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+1. **Open and Transparent**: All work done publicly on Bluesky
+2. **Community-Centered**: Users maintain agency over their content
+3. **Interdisciplinary**: Designed for collaboration across research fields
+4. **Scalable**: Built on Bluesky's moderation infrastructure
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+### Data Governance
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+We preserve users' agency over their content by sharing URLs or IDs that link back to posts rather than raw content. This ensures that user edits or deletions are reflected in new analyses while maintaining research integrity.

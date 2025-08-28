@@ -1,6 +1,6 @@
-baseurl: '/'
+baseurl: '/narratives-in-the-wild/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Narratives in the Wild'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -11,7 +11,7 @@ logo:
   desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_services: 6  # Number of research components to show on homepage
 
 collections:
   services:

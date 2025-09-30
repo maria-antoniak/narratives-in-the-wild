@@ -16,7 +16,6 @@ home:
 collections:
   research:
     output: true
-    sort_by: weight
   team:
     output: true
 
@@ -39,7 +38,6 @@ sass:
 theme: null
 
 plugins:
-  - jekyll-environment-variables
   - jekyll-feed
   - jekyll-sitemap
 

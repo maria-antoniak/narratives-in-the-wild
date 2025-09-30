@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem includes Jekyll and supported plugins
-gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
+gem "jekyll", "~> 4.3"
 
-# For local development
-group :development do
-  gem "jekyll-environment-variables"
+# Jekyll plugins
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
 end
